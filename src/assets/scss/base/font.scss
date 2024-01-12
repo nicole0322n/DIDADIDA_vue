@@ -1,0 +1,38 @@
+@font-face {
+    font-family: SofiaProMedium;
+    src: url("@/assets/font/SofiaProMedium.ttf");
+}
+
+@font-face {
+  font-family: SofiaProMedium-Italic;
+  src: url("@/assets/font/SofiaProMedium-Italic.ttf");
+}
+
+@font-face {
+  font-family: GenJyuuGothic-P-Regular;
+  src: url("@/assets/font/GenJyuuGothic-P-Regular.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=M+PLUS+Rounded+1c&family=Roboto&family=Zen+Maru+Gothic&display=swap');
+
+* {
+  font-family: 'SofiaProMedium','GenJyuuGothic-P-Regular','M PLUS Rounded 1c', Arial, Helvetica,sans-serif;
+  line-height: 1.5;
+  font-size: 15px;
+  letter-spacing:1px;
+  // font-weight: 400;
+}
+
+$fontSizes: (
+  "h1": 50px,
+  "h2": 40px,
+  "h3": 30px,
+  "h4": 20px,
+  "h5": 26px,
+  "span": 14px,
+  "div": 20px,
+  "p": 16px,
+  "nav": 15px,
+  "a": 15px,
+  "mini": 12px,
+);

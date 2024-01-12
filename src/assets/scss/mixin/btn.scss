@@ -1,0 +1,41 @@
+@mixin selectBtn($a:#2980b9,$b:#2c3e50,$c:#2980b9) {
+    appearance: none;
+    border: 0;
+    box-shadow: none;
+    outline: 10px red;
+    /* Personalize */
+    flex: 1;
+    padding: 0 15px;
+    margin-left: 10px;
+    color: #fff;
+    background-image: linear-gradient(to right, $a 0%, $b 51%, $c 100%);
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    // box-shadow: 0 0 20px #eee;
+    &:hover{
+        background-position: right center;
+        text-decoration: none;  
+    }
+
+  }
+  //.select
+@mixin btnWidth{
+    position: relative;
+    display: flex;
+    width: 130px;
+    height: 40px;
+    overflow: hidden;
+}
+
+// <span><i class="fa-solid fa-chevron-down" style="color: #eeeeee"></i></span>
+@mixin btnSpan{
+    position: absolute;
+      top: 8px;
+      right: 10px;
+      font-size: 1rem;
+      pointer-events: none;
+}

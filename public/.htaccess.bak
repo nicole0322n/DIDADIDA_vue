@@ -1,0 +1,16 @@
+<!-- 連接用的檔案，勿刪 -->
+
+<!-- <IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /chd103/g4/DIDA
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ /chd103/g4/DIDA/index.html [L]
+</IfModule> -->
+<!-- <IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /chd103/g4
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ /chd103/g4/index.html [L]
+</IfModule> -->

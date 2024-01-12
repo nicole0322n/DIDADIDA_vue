@@ -1,0 +1,6 @@
+diff a/src/assets/scss/mixin/labaAndQuiz.scss b/src/assets/scss/mixin/labaAndQuiz.scss	(rejected hunks)
+@@ -0,3 +0,4 @@
+   margin: 20px auto;
+   border: 1px red solid;
+   padding: 20px;
++}

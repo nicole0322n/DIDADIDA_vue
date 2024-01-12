@@ -1,0 +1,10 @@
+@mixin LQ() {
+  width: 70%;
+  margin: 20px  auto;
+  // border: 1px red solid;
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 15px;
+}
